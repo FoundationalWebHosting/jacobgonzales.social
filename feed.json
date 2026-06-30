@@ -1,0 +1,170 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "Jacob Gonzales",
+    "description": "",
+    "home_page_url": "https://jacobgonzales.social",
+    "feed_url": "https://jacobgonzales.social/feed.json",
+    "user_comment": "",
+    "author": {
+        "name": "Jacob Gonzales"
+    },
+    "items": [
+        {
+            "id": "https://jacobgonzales.social/fractal-terra-mini-itx-pc-build/",
+            "url": "https://jacobgonzales.social/fractal-terra-mini-itx-pc-build/",
+            "title": "Fractal Terra Mini-ITX PC Build",
+            "content_html": "\n  <div  class=\"gallery-wrapper\">\n    <div class=\"gallery\" data-columns=\"3\">\n      <figure class=\"gallery__item\">\n      <a href=\"https://jacobgonzales.social/media/posts/21/gallery/IMG_9361.JPG\" data-size=\"4032x3024\">\n        <img loading=\"lazy\" src=\"https://jacobgonzales.social/media/posts/21/gallery/IMG_9361-thumbnail.JPG\" height=\"576\" width=\"768\" alt=\"\" >\n      </a>\n      \n    </figure><figure class=\"gallery__item\">\n      <a href=\"https://jacobgonzales.social/media/posts/21/gallery/IMG_9365.JPG\" data-size=\"4032x3024\">\n        <img loading=\"lazy\" src=\"https://jacobgonzales.social/media/posts/21/gallery/IMG_9365-thumbnail.JPG\" height=\"576\" width=\"768\" alt=\"\" >\n      </a>\n      \n    </figure><figure class=\"gallery__item\">\n      <a href=\"https://jacobgonzales.social/media/posts/21/gallery/IMG_9384.JPG\" data-size=\"4032x3024\">\n        <img loading=\"lazy\" src=\"https://jacobgonzales.social/media/posts/21/gallery/IMG_9384-thumbnail.JPG\" height=\"576\" width=\"768\" alt=\"\" >\n      </a>\n      \n    </figure><figure class=\"gallery__item\">\n      <a href=\"https://jacobgonzales.social/media/posts/21/gallery/IMG_9400.JPG\" data-size=\"4032x3024\">\n        <img loading=\"lazy\" src=\"https://jacobgonzales.social/media/posts/21/gallery/IMG_9400-thumbnail.JPG\" height=\"576\" width=\"768\" alt=\"\" >\n      </a>\n      \n    </figure>\n    </div>\n  </div>",
+            "image": "https://jacobgonzales.social/media/posts/21/IMG_9400.JPG",
+            "author": {
+                "name": "Jacob Gonzales"
+            },
+            "tags": [
+                   "Professional Experience"
+            ],
+            "date_published": "2025-09-26T07:30:00-07:00",
+            "date_modified": "2026-04-10T23:30:20-07:00"
+        },
+        {
+            "id": "https://jacobgonzales.social/north-cascades-national-park/",
+            "url": "https://jacobgonzales.social/north-cascades-national-park/",
+            "title": "North Cascades National Park",
+            "summary": "48.70991° N, 121.09744° W 48.70971° N, 121.09738° W 48.70978° N, 121.09740° W&hellip;",
+            "content_html": "\n  <div  class=\"gallery-wrapper\">\n    <div class=\"gallery\" data-columns=\"3\">\n      <figure class=\"gallery__item\">\n      <a href=\"https://jacobgonzales.social/media/posts/16/gallery/IMG_6323.jpg\" data-size=\"3072x4096\">\n        <img loading=\"lazy\" src=\"https://jacobgonzales.social/media/posts/16/gallery/IMG_6323-thumbnail.jpg\" height=\"1024\" width=\"768\" alt=\"\" >\n      </a>\n      <figcaption>48.70991° N, 121.09744° W</figcaption>\n    </figure><figure class=\"gallery__item\">\n      <a href=\"https://jacobgonzales.social/media/posts/16/gallery/IMG_6328.jpg\" data-size=\"4032x3024\">\n        <img loading=\"lazy\" src=\"https://jacobgonzales.social/media/posts/16/gallery/IMG_6328-thumbnail.jpg\" height=\"576\" width=\"768\" alt=\"\" >\n      </a>\n      <figcaption>48.70971° N, 121.09738° W</figcaption>\n    </figure><figure class=\"gallery__item\">\n      <a href=\"https://jacobgonzales.social/media/posts/16/gallery/IMG_6332.jpg\" data-size=\"4032x3024\">\n        <img loading=\"lazy\" src=\"https://jacobgonzales.social/media/posts/16/gallery/IMG_6332-thumbnail.jpg\" height=\"576\" width=\"768\" alt=\"\" >\n      </a>\n      <figcaption>48.70978° N, 121.09740° W</figcaption>\n    </figure><figure class=\"gallery__item\">\n      <a href=\"https://jacobgonzales.social/media/posts/16/gallery/IMG_6341.jpg\" data-size=\"2304x3072\">\n        <img loading=\"lazy\" src=\"https://jacobgonzales.social/media/posts/16/gallery/IMG_6341-thumbnail.jpg\" height=\"1024\" width=\"768\" alt=\"\" >\n      </a>\n      <figcaption>48.72955° N, 121.06174° W</figcaption>\n    </figure><figure class=\"gallery__item\">\n      <a href=\"https://jacobgonzales.social/media/posts/16/gallery/IMG_6344.jpg\" data-size=\"4032x3024\">\n        <img loading=\"lazy\" src=\"https://jacobgonzales.social/media/posts/16/gallery/IMG_6344-thumbnail.jpg\" height=\"576\" width=\"768\" alt=\"\" >\n      </a>\n      <figcaption>48.69100° N, 121.09826° W</figcaption>\n    </figure><figure class=\"gallery__item\">\n      <a href=\"https://jacobgonzales.social/media/posts/16/gallery/IMG_6348.jpg\" data-size=\"4032x3024\">\n        <img loading=\"lazy\" src=\"https://jacobgonzales.social/media/posts/16/gallery/IMG_6348-thumbnail.jpg\" height=\"576\" width=\"768\" alt=\"\" >\n      </a>\n      <figcaption>48.69105° N, 121.09821° W</figcaption>\n    </figure>\n    </div>\n  </div>",
+            "image": "https://jacobgonzales.social/media/posts/16/IMG_6323.jpg",
+            "author": {
+                "name": "Jacob Gonzales"
+            },
+            "tags": [
+                   "National Parks"
+            ],
+            "date_published": "2025-08-26T06:31:00-07:00",
+            "date_modified": "2025-09-22T22:15:13-07:00"
+        },
+        {
+            "id": "https://jacobgonzales.social/mount-rainier-national-park/",
+            "url": "https://jacobgonzales.social/mount-rainier-national-park/",
+            "title": "Mount Rainier National Park",
+            "summary": "46.76578° N, 121.69952° W 46.76577° N, 121.69952° W 46.76579° N, 121.69953° W&hellip;",
+            "content_html": "\n  <div  class=\"gallery-wrapper\">\n    <div class=\"gallery\" data-columns=\"3\">\n      <figure class=\"gallery__item\">\n      <a href=\"https://jacobgonzales.social/media/posts/18/gallery/IMG_6245.jpg\" data-size=\"3072x4096\">\n        <img loading=\"lazy\" src=\"https://jacobgonzales.social/media/posts/18/gallery/IMG_6245-thumbnail.jpg\" height=\"1024\" width=\"768\" alt=\"\" >\n      </a>\n      <figcaption>46.76578° N, 121.69952° W</figcaption>\n    </figure><figure class=\"gallery__item\">\n      <a href=\"https://jacobgonzales.social/media/posts/18/gallery/IMG_6246.jpg\" data-size=\"3072x4096\">\n        <img loading=\"lazy\" src=\"https://jacobgonzales.social/media/posts/18/gallery/IMG_6246-thumbnail.jpg\" height=\"1024\" width=\"768\" alt=\"\" >\n      </a>\n      <figcaption>46.76577° N, 121.69952° W</figcaption>\n    </figure><figure class=\"gallery__item\">\n      <a href=\"https://jacobgonzales.social/media/posts/18/gallery/IMG_6247.jpg\" data-size=\"3072x4096\">\n        <img loading=\"lazy\" src=\"https://jacobgonzales.social/media/posts/18/gallery/IMG_6247-thumbnail.jpg\" height=\"1024\" width=\"768\" alt=\"\" >\n      </a>\n      <figcaption>46.76579° N, 121.69953° W</figcaption>\n    </figure><figure class=\"gallery__item\">\n      <a href=\"https://jacobgonzales.social/media/posts/18/gallery/IMG_6248.jpg\" data-size=\"3072x4096\">\n        <img loading=\"lazy\" src=\"https://jacobgonzales.social/media/posts/18/gallery/IMG_6248-thumbnail.jpg\" height=\"1024\" width=\"768\" alt=\"\" >\n      </a>\n      <figcaption>46.79168° N, 121.73777° W</figcaption>\n    </figure><figure class=\"gallery__item\">\n      <a href=\"https://jacobgonzales.social/media/posts/18/gallery/IMG_6274.jpg\" data-size=\"3072x4096\">\n        <img loading=\"lazy\" src=\"https://jacobgonzales.social/media/posts/18/gallery/IMG_6274-thumbnail.jpg\" height=\"1024\" width=\"768\" alt=\"\" >\n      </a>\n      <figcaption>46.79868° N, 121.73466° W</figcaption>\n    </figure><figure class=\"gallery__item\">\n      <a href=\"https://jacobgonzales.social/media/posts/18/gallery/IMG_6278.jpg\" data-size=\"3072x4096\">\n        <img loading=\"lazy\" src=\"https://jacobgonzales.social/media/posts/18/gallery/IMG_6278-thumbnail.jpg\" height=\"1024\" width=\"768\" alt=\"\" >\n      </a>\n      <figcaption>46.80148° N, 121.73560° W</figcaption>\n    </figure><figure class=\"gallery__item\">\n      <a href=\"https://jacobgonzales.social/media/posts/18/gallery/IMG_6281.jpg\" data-size=\"3072x4096\">\n        <img loading=\"lazy\" src=\"https://jacobgonzales.social/media/posts/18/gallery/IMG_6281-thumbnail.jpg\" height=\"1024\" width=\"768\" alt=\"\" >\n      </a>\n      <figcaption>46.80194° N, 121.73438° W</figcaption>\n    </figure><figure class=\"gallery__item\">\n      <a href=\"https://jacobgonzales.social/media/posts/18/gallery/IMG_6295.jpg\" data-size=\"3072x4096\">\n        <img loading=\"lazy\" src=\"https://jacobgonzales.social/media/posts/18/gallery/IMG_6295-thumbnail.jpg\" height=\"1024\" width=\"768\" alt=\"\" >\n      </a>\n      <figcaption>46.80324° N, 121.73458° W</figcaption>\n    </figure><figure class=\"gallery__item\">\n      <a href=\"https://jacobgonzales.social/media/posts/18/gallery/IMG_6302.jpg\" data-size=\"4032x3024\">\n        <img loading=\"lazy\" src=\"https://jacobgonzales.social/media/posts/18/gallery/IMG_6302-thumbnail.jpg\" height=\"576\" width=\"768\" alt=\"\" >\n      </a>\n      <figcaption>46.80341° N, 121.73458° W</figcaption>\n    </figure><figure class=\"gallery__item\">\n      <a href=\"https://jacobgonzales.social/media/posts/18/gallery/IMG_6303.jpg\" data-size=\"3072x4096\">\n        <img loading=\"lazy\" src=\"https://jacobgonzales.social/media/posts/18/gallery/IMG_6303-thumbnail.jpg\" height=\"1024\" width=\"768\" alt=\"\" >\n      </a>\n      <figcaption>46.80289° N, 121.73458° W</figcaption>\n    </figure>\n    </div>\n  </div>",
+            "image": "https://jacobgonzales.social/media/posts/18/IMG_6248.jpg",
+            "author": {
+                "name": "Jacob Gonzales"
+            },
+            "tags": [
+                   "National Parks"
+            ],
+            "date_published": "2025-08-25T15:42:00-07:00",
+            "date_modified": "2025-09-23T08:39:51-07:00"
+        },
+        {
+            "id": "https://jacobgonzales.social/crater-lake-national-park/",
+            "url": "https://jacobgonzales.social/crater-lake-national-park/",
+            "title": "Crater Lake National Park",
+            "summary": "42.97039° N, 122.15262° W 42.96959° N, 122.15212° W 42.97612° N, 122.09001° W&hellip;",
+            "content_html": "\n  <div  class=\"gallery-wrapper\">\n    <div class=\"gallery\" data-columns=\"3\">\n      <figure class=\"gallery__item\">\n      <a href=\"https://jacobgonzales.social/media/posts/17/gallery/IMG_6207.jpg\" data-size=\"4032x3024\">\n        <img loading=\"lazy\" src=\"https://jacobgonzales.social/media/posts/17/gallery/IMG_6207-thumbnail.jpg\" height=\"576\" width=\"768\" alt=\"\" >\n      </a>\n      <figcaption>42.97039° N, 122.15262° W</figcaption>\n    </figure><figure class=\"gallery__item\">\n      <a href=\"https://jacobgonzales.social/media/posts/17/gallery/IMG_6209.jpg\" data-size=\"4032x3024\">\n        <img loading=\"lazy\" src=\"https://jacobgonzales.social/media/posts/17/gallery/IMG_6209-thumbnail.jpg\" height=\"576\" width=\"768\" alt=\"\" >\n      </a>\n      <figcaption>42.96959° N, 122.15212° W</figcaption>\n    </figure><figure class=\"gallery__item\">\n      <a href=\"https://jacobgonzales.social/media/posts/17/gallery/IMG_6213.jpg\" data-size=\"3072x4096\">\n        <img loading=\"lazy\" src=\"https://jacobgonzales.social/media/posts/17/gallery/IMG_6213-thumbnail.jpg\" height=\"1024\" width=\"768\" alt=\"\" >\n      </a>\n      <figcaption>42.97612° N, 122.09001° W Now</figcaption>\n    </figure><figure class=\"gallery__item\">\n      <a href=\"https://jacobgonzales.social/media/posts/17/gallery/IMG_6216.jpg\" data-size=\"2304x3072\">\n        <img loading=\"lazy\" src=\"https://jacobgonzales.social/media/posts/17/gallery/IMG_6216-thumbnail.jpg\" height=\"1024\" width=\"768\" alt=\"\" >\n      </a>\n      <figcaption>42.97783° N, 122.08784° W</figcaption>\n    </figure><figure class=\"gallery__item\">\n      <a href=\"https://jacobgonzales.social/media/posts/17/gallery/IMG_6217.jpg\" data-size=\"3072x4096\">\n        <img loading=\"lazy\" src=\"https://jacobgonzales.social/media/posts/17/gallery/IMG_6217-thumbnail.jpg\" height=\"1024\" width=\"768\" alt=\"\" >\n      </a>\n      <figcaption>42.96194° N, 122.15661° W</figcaption>\n    </figure><figure class=\"gallery__item\">\n      <a href=\"https://jacobgonzales.social/media/posts/17/gallery/IMG_6218.jpg\" data-size=\"3072x4096\">\n        <img loading=\"lazy\" src=\"https://jacobgonzales.social/media/posts/17/gallery/IMG_6218-thumbnail.jpg\" height=\"1024\" width=\"768\" alt=\"\" >\n      </a>\n      <figcaption>42.96194° N, 122.15661° W</figcaption>\n    </figure>\n    </div>\n  </div>",
+            "image": "https://jacobgonzales.social/media/posts/17/IMG_6217.jpg",
+            "author": {
+                "name": "Jacob Gonzales"
+            },
+            "tags": [
+                   "National Parks"
+            ],
+            "date_published": "2025-08-24T14:14:00-07:00",
+            "date_modified": "2025-09-22T22:21:24-07:00"
+        },
+        {
+            "id": "https://jacobgonzales.social/umpqua-hot-springs/",
+            "url": "https://jacobgonzales.social/umpqua-hot-springs/",
+            "title": "Umpqua Hot Springs",
+            "summary": "43.29374° N, 122.36536° W 43.29445° N, 122.36516° W 43.29458° N, 122.36492° W&hellip;",
+            "content_html": "\n  <div  class=\"gallery-wrapper\">\n    <div class=\"gallery\" data-columns=\"3\">\n      <figure class=\"gallery__item\">\n      <a href=\"https://jacobgonzales.social/media/posts/19/gallery/IMG_6181-2.jpg\" data-size=\"2304x3072\">\n        <img loading=\"lazy\" src=\"https://jacobgonzales.social/media/posts/19/gallery/IMG_6181-2-thumbnail.jpg\" height=\"1024\" width=\"768\" alt=\"\" >\n      </a>\n      <figcaption>43.29374° N, 122.36536° W</figcaption>\n    </figure><figure class=\"gallery__item\">\n      <a href=\"https://jacobgonzales.social/media/posts/19/gallery/IMG_6182-2.jpg\" data-size=\"2304x3072\">\n        <img loading=\"lazy\" src=\"https://jacobgonzales.social/media/posts/19/gallery/IMG_6182-2-thumbnail.jpg\" height=\"1024\" width=\"768\" alt=\"\" >\n      </a>\n      <figcaption>43.29445° N, 122.36516° W</figcaption>\n    </figure><figure class=\"gallery__item\">\n      <a href=\"https://jacobgonzales.social/media/posts/19/gallery/IMG_6183-2.jpg\" data-size=\"3072x4096\">\n        <img loading=\"lazy\" src=\"https://jacobgonzales.social/media/posts/19/gallery/IMG_6183-2-thumbnail.jpg\" height=\"1024\" width=\"768\" alt=\"\" >\n      </a>\n      <figcaption>43.29458° N, 122.36492° W</figcaption>\n    </figure><figure class=\"gallery__item\">\n      <a href=\"https://jacobgonzales.social/media/posts/19/gallery/IMG_6184-2.jpg\" data-size=\"2304x3072\">\n        <img loading=\"lazy\" src=\"https://jacobgonzales.social/media/posts/19/gallery/IMG_6184-2-thumbnail.jpg\" height=\"1024\" width=\"768\" alt=\"\" >\n      </a>\n      <figcaption>43.29677° N, 122.36350° W</figcaption>\n    </figure><figure class=\"gallery__item\">\n      <a href=\"https://jacobgonzales.social/media/posts/19/gallery/IMG_6185-2.jpg\" data-size=\"3072x4096\">\n        <img loading=\"lazy\" src=\"https://jacobgonzales.social/media/posts/19/gallery/IMG_6185-2-thumbnail.jpg\" height=\"1024\" width=\"768\" alt=\"\" >\n      </a>\n      <figcaption>43.29695° N, 122.36384° W</figcaption>\n    </figure><figure class=\"gallery__item\">\n      <a href=\"https://jacobgonzales.social/media/posts/19/gallery/IMG_6189-2.jpg\" data-size=\"2304x3072\">\n        <img loading=\"lazy\" src=\"https://jacobgonzales.social/media/posts/19/gallery/IMG_6189-2-thumbnail.jpg\" height=\"1024\" width=\"768\" alt=\"\" >\n      </a>\n      <figcaption>43.29694° N, 122.36351° W</figcaption>\n    </figure><figure class=\"gallery__item\">\n      <a href=\"https://jacobgonzales.social/media/posts/19/gallery/IMG_6190-2.jpg\" data-size=\"4032x3024\">\n        <img loading=\"lazy\" src=\"https://jacobgonzales.social/media/posts/19/gallery/IMG_6190-2-thumbnail.jpg\" height=\"576\" width=\"768\" alt=\"\" >\n      </a>\n      <figcaption>43.29694° N, 122.36353° W</figcaption>\n    </figure>\n    </div>\n  </div>",
+            "image": "https://jacobgonzales.social/media/posts/19/IMG_6185.jpg",
+            "author": {
+                "name": "Jacob Gonzales"
+            },
+            "tags": [
+                   "Travel"
+            ],
+            "date_published": "2025-08-24T11:50:00-07:00",
+            "date_modified": "2025-09-23T12:54:08-07:00"
+        },
+        {
+            "id": "https://jacobgonzales.social/elk-flats/",
+            "url": "https://jacobgonzales.social/elk-flats/",
+            "title": "Elk Flats",
+            "summary": "45.74648° N, 123.96343° W 45.74543° N, 123.96435° W 45.74545° N, 123.96437° W&hellip;",
+            "content_html": "\n  <div  class=\"gallery-wrapper\">\n    <div class=\"gallery\" data-columns=\"3\">\n      <figure class=\"gallery__item\">\n      <a href=\"https://jacobgonzales.social/media/posts/20/gallery/IMG_6115.jpg\" data-size=\"4032x3024\">\n        <img loading=\"lazy\" src=\"https://jacobgonzales.social/media/posts/20/gallery/IMG_6115-thumbnail.jpg\" height=\"576\" width=\"768\" alt=\"\" >\n      </a>\n      <figcaption>45.74648° N, 123.96343° W</figcaption>\n    </figure><figure class=\"gallery__item\">\n      <a href=\"https://jacobgonzales.social/media/posts/20/gallery/IMG_6125.jpg\" data-size=\"3072x4096\">\n        <img loading=\"lazy\" src=\"https://jacobgonzales.social/media/posts/20/gallery/IMG_6125-thumbnail.jpg\" height=\"1024\" width=\"768\" alt=\"\" >\n      </a>\n      <figcaption>45.74543° N, 123.96435° W</figcaption>\n    </figure><figure class=\"gallery__item\">\n      <a href=\"https://jacobgonzales.social/media/posts/20/gallery/IMG_6126.jpg\" data-size=\"3072x4096\">\n        <img loading=\"lazy\" src=\"https://jacobgonzales.social/media/posts/20/gallery/IMG_6126-thumbnail.jpg\" height=\"1024\" width=\"768\" alt=\"\" >\n      </a>\n      <figcaption>45.74545° N, 123.96437° W</figcaption>\n    </figure><figure class=\"gallery__item\">\n      <a href=\"https://jacobgonzales.social/media/posts/20/gallery/IMG_6128.jpg\" data-size=\"3072x4096\">\n        <img loading=\"lazy\" src=\"https://jacobgonzales.social/media/posts/20/gallery/IMG_6128-thumbnail.jpg\" height=\"1024\" width=\"768\" alt=\"\" >\n      </a>\n      <figcaption>45.74545° N, 123.96435° W</figcaption>\n    </figure><figure class=\"gallery__item\">\n      <a href=\"https://jacobgonzales.social/media/posts/20/gallery/IMG_6130.jpg\" data-size=\"4032x3024\">\n        <img loading=\"lazy\" src=\"https://jacobgonzales.social/media/posts/20/gallery/IMG_6130-thumbnail.jpg\" height=\"576\" width=\"768\" alt=\"\" >\n      </a>\n      <figcaption>45.74542° N, 123.96432° W</figcaption>\n    </figure><figure class=\"gallery__item\">\n      <a href=\"https://jacobgonzales.social/media/posts/20/gallery/IMG_6167.jpg\" data-size=\"3072x4096\">\n        <img loading=\"lazy\" src=\"https://jacobgonzales.social/media/posts/20/gallery/IMG_6167-thumbnail.jpg\" height=\"1024\" width=\"768\" alt=\"\" >\n      </a>\n      <figcaption>45.74824° N, 123.96332° W</figcaption>\n    </figure>\n    </div>\n  </div>",
+            "image": "https://jacobgonzales.social/media/posts/20/IMG_6125.jpg",
+            "author": {
+                "name": "Jacob Gonzales"
+            },
+            "tags": [
+                   "Travel"
+            ],
+            "date_published": "2025-08-23T19:46:00-07:00",
+            "date_modified": "2025-09-23T13:00:20-07:00"
+        },
+        {
+            "id": "https://jacobgonzales.social/arch-rock/",
+            "url": "https://jacobgonzales.social/arch-rock/",
+            "title": "Arch Rock",
+            "content_html": "\n  <p>\n    \n  </p>",
+            "image": "https://jacobgonzales.social/media/posts/22/IMG_3229.JPG",
+            "author": {
+                "name": "Jacob Gonzales"
+            },
+            "tags": [
+                   "Travel"
+            ],
+            "date_published": "2025-05-02T14:29:00-07:00",
+            "date_modified": "2025-12-25T22:57:52-08:00"
+        },
+        {
+            "id": "https://jacobgonzales.social/3d-printing-career/",
+            "url": "https://jacobgonzales.social/3d-printing-career/",
+            "title": "3D Printing Career",
+            "summary": "About the Business This business started very unexpectedly, though from the fruit&hellip;",
+            "content_html": "\n    <h2 id=\"about-the-business\">\n      About the Business\n    </h2>\n\n  <p>\n    This business started very unexpectedly, though from the fruit and experiences from my YouTube career I was fortunate enough to plan accordingly through trend analysis. In seventh grade, I was blessed to be gifted with a 3D printer for Christmas. This was during a time were consumer grade printers was a developing market, funny enough the consumer grade PLA printer was by Dremel. Dremel primarily sells tools though entered the 3D printing market with their (Dremel 3D Idea Builder 3D Printer). This printer was the pivotal powerhouse for this 3D printing business that allow it to rapidly excel during this season of my 3D printing career.\n  </p>\n\n    <h3 id=\"business-opportunities-in-trends\">\n      Business Opportunities in Trends\n    </h3>\n\n  <p>\n    My exposure to the content creator side of YouTube from a young age had a tremendous impact on me and aid in me being well prepared for this trend. I was able to do proper trend analysis that not only motivated my overall supply chain management but touched all aspects of marketing, production and order fulfillment. This includes all the sub categorizes as well to promote success for this business. These sub categorizes included inventory management and projected profit to loss analysis based on the market demand. This trend was the infamous fidget spinner trend, now before you laugh listen up to my personal experience.\n  </p>\n\n    <h2 id=\"personal-reflection\">\n      Personal Reflection\n    </h2>\n\n  <p>\n    This business was astonishingly impactful for my professional development, it really exposed me to being boots on the ground at the one and only location to close high ticket sales, the middle school. No I’m serious, being a middle schooler I understood how hard it was to get some quick cash, while keeping up with the trends. And no I didn't buy into the trends, I invested in them. That’s exactly why my sales strategy was for my peers to speak with their parents first before doing business with me, this fostered the relationship and ultimately the facilitator of the transaction. I was blessed to capture more sales than my poor first generation Dremel 3D Idea Builder could handle on a multi shift schedule and no it didn't get PTO, lunch breaks or benefits. That Dremel ran 24/7, day and night until I later sold it for less than 60% depreciation. 3D printing exposed me to the concept of margins in durable goods. 3D printing exposed me to the concept of speed to market strategical alignment. My product may have not been the best but it was in the hands of the consumer the next day or the day after. Even at times was personalized for the customer through the learned trait of CAD design. Having that angle in the market allowed my business to net 1:20 ratio on durable goods which is honestly a blessing. Though with all trends they all follow a predictable time, it was by faith alone that I was able to properly prepare for the downfalls. Which later allowed me to liquidate the equipment &amp; keep my remaining inventory of three fidget spinners.&nbsp;\n  </p>\n\n    <h2 id=\"biblical-fruit-through-experience\">\n      Biblical Fruit Through Experience\n    </h2>\n\n  <p>\n    The biblical fruit out of this 3D printing business was not only a season of growth and learning. It was a season of preparation for the season that God has me at now. Even though in my youth, I wasn't actively pursing a daily relationship with Christ. Christ was actively pursing a daily relationship with me, shaping my youth into a profound foundation that was awaiting to be set once I was ready to make that decision.\n  </p>",
+            "author": {
+                "name": "Jacob Gonzales"
+            },
+            "tags": [
+                   "Professional Experience"
+            ],
+            "date_published": "2025-04-29T17:49:29-07:00",
+            "date_modified": "2026-04-10T23:30:29-07:00"
+        },
+        {
+            "id": "https://jacobgonzales.social/youtube-content-creator-career/",
+            "url": "https://jacobgonzales.social/youtube-content-creator-career/",
+            "title": "YouTube Content Creator Career",
+            "summary": "YouTube Channel Stats Channel Created On: October 15, 2014Subscribers: 10,300Total Video Views:&hellip;",
+            "content_html": "\n    <h2 id=\"youtube-channel-stats\">\n      YouTube Channel Stats\n    </h2>\n\n  <ul>\n    <li>Channel Created On: October 15, 2014</li><li>Subscribers: 10,300</li><li>Total Video Views: 588,725</li><li>Uploaded Videos: 88</li>\n  </ul>\n\n    <h2 id=\"about-the-channel\">\n      About the Channel\n    </h2>\n\n  <p>\n    The YouTube channel originally started out as a gaming and entertainment channel. After some time becoming \"well established\" some would argue, the channel took a turn into SaSS digital product sales. The channel turned into a marketing hub for video game enhancing software. This channel was able to yield 3% subscribers into monthly purchasers, this allowed not only the cost of the digital product to be covered but the developers &amp; marketers to be covered. \n  </p>\n\n    <h2 id=\"personal-reflection\">\n      Personal Reflection\n    </h2>\n\n  <p>\n    At that time when I was 12 years old, I was not aware of the perspectives some people had on game enhancing software. Where I am today and daily seeking a deeper, more profound relationship with Christ. I am thankful to have grown out of that season of my life. Despite my career with my YouTube channel growing exponentially month over month both revenue and outreach, I deleted the channel to start fresh.\n  </p>\n\n    <h2 id=\"biblical-fruit-through-experience\">\n      Biblical Fruit Through Experience\n    </h2>\n\n  <p>\n    As I've continue to grow my relationship with Christ, It's been revealed to me the biblical fruit that has flourished from this business. I've been blessed to be experienced to strategical algorithm based analysis at a young age it has allowed me to navigate complex problems and help other individuals grow their ideas into realities. This business later fueled other businesses as I've grown older.\n  </p>\n\n    <figure class=\"blockquote\">\n      <blockquote>Every good and perfect gift is from above, coming down from the Father of the heavenly lights, who does not change like shifting shadows.</blockquote>\n      <figcaption>~ James 1:17 NIV</figcaption>\n    </figure>",
+            "image": "https://jacobgonzales.social/media/posts/14/Social-Blade-YouTube-Stats-2.webp",
+            "author": {
+                "name": "Jacob Gonzales"
+            },
+            "tags": [
+                   "Professional Experience"
+            ],
+            "date_published": "2025-04-29T17:26:10-07:00",
+            "date_modified": "2026-04-10T23:30:10-07:00"
+        },
+        {
+            "id": "https://jacobgonzales.social/redwood-grove/",
+            "url": "https://jacobgonzales.social/redwood-grove/",
+            "title": "Redwood Grove",
+            "summary": "33.91502° N, 117.83620° W 33.91500° N, 117.83617° W 33.91485° N, 117.83565° W&hellip;",
+            "content_html": "\n  <div  class=\"gallery-wrapper\">\n    <div class=\"gallery\" data-columns=\"3\">\n      <figure class=\"gallery__item\">\n      <a href=\"https://jacobgonzales.social/media/posts/10/gallery/IMG_0260.webp\" data-size=\"3024x4032\">\n        <img loading=\"lazy\" src=\"https://jacobgonzales.social/media/posts/10/gallery/IMG_0260-thumbnail.webp\" height=\"1024\" width=\"768\" alt=\"\" >\n      </a>\n      <figcaption>33.91502° N, 117.83620° W</figcaption>\n    </figure><figure class=\"gallery__item\">\n      <a href=\"https://jacobgonzales.social/media/posts/10/gallery/IMG_0262.webp\" data-size=\"3922x8330\">\n        <img loading=\"lazy\" src=\"https://jacobgonzales.social/media/posts/10/gallery/IMG_0262-thumbnail.webp\" height=\"1631\" width=\"768\" alt=\"\" >\n      </a>\n      <figcaption>33.91500° N, 117.83617° W</figcaption>\n    </figure><figure class=\"gallery__item\">\n      <a href=\"https://jacobgonzales.social/media/posts/10/gallery/IMG_0276.webp\" data-size=\"3024x4032\">\n        <img loading=\"lazy\" src=\"https://jacobgonzales.social/media/posts/10/gallery/IMG_0276-thumbnail.webp\" height=\"1024\" width=\"768\" alt=\"\" >\n      </a>\n      <figcaption>33.91485° N, 117.83565° W</figcaption>\n    </figure><figure class=\"gallery__item\">\n      <a href=\"https://jacobgonzales.social/media/posts/10/gallery/IMG_0298.webp\" data-size=\"3928x6110\">\n        <img loading=\"lazy\" src=\"https://jacobgonzales.social/media/posts/10/gallery/IMG_0298-thumbnail.webp\" height=\"1195\" width=\"768\" alt=\"\" >\n      </a>\n      <figcaption>33.91470° N, 117.83508° W</figcaption>\n    </figure>\n    </div>\n  </div>",
+            "image": "https://jacobgonzales.social/media/posts/10/IMG_0261.webp",
+            "author": {
+                "name": "Jacob Gonzales"
+            },
+            "tags": [
+                   "Travel"
+            ],
+            "date_published": "2024-11-27T08:38:00-08:00",
+            "date_modified": "2025-03-27T20:14:10-07:00"
+        }
+    ]
+}
