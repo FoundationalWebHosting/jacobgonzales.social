@@ -3,7 +3,7 @@
     <title>Jacob Gonzales</title>
     <link href="https://jacobgonzales.social/feed.xml" rel="self" />
     <link href="https://jacobgonzales.social" />
-    <updated>2026-09-21T21:42:32-07:00</updated>
+    <updated>2026-09-21T21:53:26-07:00</updated>
     <author>
         <name>Jacob Gonzales</name>
     </author>
@@ -86,6 +86,39 @@ sudo dpkg -i rstudio-2023.06.2-561-amd64.deb
 <td align="left">Installs available updates</td>
 </tr>
 </tbody></table>
+
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Bypassing McGraw-Hill’s Copy Protection with NormCap</title>
+        <author>
+            <name>Jacob Gonzales</name>
+        </author>
+        <link href="https://jacobgonzales.social/bypassing-mcgraw-hills-copy-protection-with-normcap/"/>
+        <id>https://jacobgonzales.social/bypassing-mcgraw-hills-copy-protection-with-normcap/</id>
+
+        <updated>2023-05-01T12:00:00-07:00</updated>
+            <summary type="html">
+                <![CDATA[
+                    Students have long faced difficulties with McGraw-Hill’s online accounting textbooks due to strict copy prevention measures. This restriction not only prevents offline reading but also hampers studying and taking digital notes on practice problems. While some have attempted to bypass this by changing browser settings,&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>Students have long faced difficulties with McGraw-Hill’s online accounting textbooks due to strict copy prevention measures. This restriction not only prevents offline reading but also hampers studying and taking digital notes on practice problems. While some have attempted to bypass this by changing browser settings, McGraw-Hill uses JavaScript to enforce their copy protection. Fortunately, there is a solution that does not require circumventing their systems: NormCap.</p><p>NormCap is an open-source, OCR-powered screenshot tool that allows users to extract text from almost anything on their screen, including images, videos, and protected websites like McGraw-Hill Connect. Instead of capturing a traditional image, NormCap detects and extracts the text directly to your clipboard.</p><p>To get started, simply download and install NormCap from their official website. Once running, select the region of text you wish to copy, and it will automatically be added to your clipboard for easy pasting. It is a completely free tool without ads, designed to help students easily capture notes and focus on their coursework.</p><h2 id="step-by-step-guide">Step-by-Step Guide</h2>
+<ol>
+<li><p><strong>Download and Install</strong>
+Download the application from the <a href="https://dynobo.github.io/normcap/">official NormCap website</a>.</p></li>
+<li><p><strong>Launch the Application</strong>
+Start NormCap. A pink border will appear once the necessary permissions are granted.</p></li>
+<li><p><strong>Select Text</strong>
+Highlight the region of text you wish to copy. The text is now automatically copied to your clipboard.</p></li>
+<li><p><strong>Paste Your Text</strong>
+Press <code>Ctrl+V</code> (or your system’s paste shortcut) to paste the text anywhere.</p></li>
+</ol>
+<blockquote>
+<p><strong>Note:</strong> Settings can be accessed by starting NormCap or pressing “Capture” in the tray icon while the app is running. As of version 0.4.1, settings are located in the top right corner of the screen.</p></blockquote>
 
             ]]>
         </content>
