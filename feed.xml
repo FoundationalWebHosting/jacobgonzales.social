@@ -3,7 +3,7 @@
     <title>Jacob Gonzales</title>
     <link href="https://jacobgonzales.social/feed.xml" rel="self" />
     <link href="https://jacobgonzales.social" />
-    <updated>2026-09-21T22:11:27-07:00</updated>
+    <updated>2026-09-21T22:19:04-07:00</updated>
     <author>
         <name>Jacob Gonzales</name>
     </author>
@@ -16,6 +16,8 @@
         </author>
         <link href="https://jacobgonzales.social/how-beeper-can-help-you-detox-from-social-media/"/>
         <id>https://jacobgonzales.social/how-beeper-can-help-you-detox-from-social-media/</id>
+            <category term="Guides"/>
+            <category term="Featured Apps"/>
 
         <updated>2024-05-25T12:00:00-07:00</updated>
             <summary type="html">
@@ -44,6 +46,7 @@
         </author>
         <link href="https://jacobgonzales.social/a-step-by-step-guide-installing-rstudio-on-vanilla-os-2210-kinetic/"/>
         <id>https://jacobgonzales.social/a-step-by-step-guide-installing-rstudio-on-vanilla-os-2210-kinetic/</id>
+            <category term="Guides"/>
 
         <updated>2023-09-04T12:00:00-07:00</updated>
             <summary type="html">
@@ -125,6 +128,8 @@ sudo dpkg -i rstudio-2023.06.2-561-amd64.deb
         </author>
         <link href="https://jacobgonzales.social/bypassing-mcgraw-hills-copy-protection-with-normcap/"/>
         <id>https://jacobgonzales.social/bypassing-mcgraw-hills-copy-protection-with-normcap/</id>
+            <category term="Guides"/>
+            <category term="Featured Apps"/>
 
         <updated>2023-05-01T12:00:00-07:00</updated>
             <summary type="html">
@@ -158,6 +163,7 @@ Press <code>Ctrl+V</code> (or your system’s paste shortcut) to paste the text 
         </author>
         <link href="https://jacobgonzales.social/how-to-convert-pdfs-to-images-with-gimp/"/>
         <id>https://jacobgonzales.social/how-to-convert-pdfs-to-images-with-gimp/</id>
+            <category term="Guides"/>
 
         <updated>2023-03-01T12:00:00-08:00</updated>
             <summary type="html">
@@ -194,6 +200,7 @@ GIMP will then save the image PDF file to the location you specified. You can no
         </author>
         <link href="https://jacobgonzales.social/the-false-positive-problem-a-case-study-on-gptzero-and-ai-detection/"/>
         <id>https://jacobgonzales.social/the-false-positive-problem-a-case-study-on-gptzero-and-ai-detection/</id>
+            <category term="Case Studies"/>
 
         <updated>2023-02-19T12:00:00-08:00</updated>
             <summary type="html">
@@ -247,6 +254,7 @@ GIMP will then save the image PDF file to the location you specified. You can no
         </author>
         <link href="https://jacobgonzales.social/fixing-wi-fi-on-a-lenovo-ideapad-5-14itl05-with-windows-11/"/>
         <id>https://jacobgonzales.social/fixing-wi-fi-on-a-lenovo-ideapad-5-14itl05-with-windows-11/</id>
+            <category term="Guides"/>
 
         <updated>2023-01-19T12:00:00-08:00</updated>
             <summary type="html">
