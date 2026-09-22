@@ -36,6 +36,20 @@
             ],
             "date_published": "2023-03-01T12:00:00-08:00",
             "date_modified": "2026-09-21T21:25:09-07:00"
+        },
+        {
+            "id": "https://jacobgonzales.social/fixing-wi-fi-on-a-lenovo-ideapad-5-14itl05-with-windows-11/",
+            "url": "https://jacobgonzales.social/fixing-wi-fi-on-a-lenovo-ideapad-5-14itl05-with-windows-11/",
+            "title": "Fixing Wi-Fi on a Lenovo IdeaPad 5 (14ITL05) with Windows 11",
+            "summary": "Overview When your Lenovo IdeaPad 5 (14ITL05) loses internet access—shown by the globe icon—you can fix the Wi-Fi driver using another computer. Prepare another device Use a separate laptop with internet to open Lenovo’s site. Search “Lenovo IdeaPad 5 (14ITL05) drivers” and download the newest&hellip;",
+            "content_html": "<h2 id=\"overview\">Overview</h2>\n<p>When your Lenovo IdeaPad 5 (14ITL05) loses internet access—shown by the globe icon—you can fix the Wi-Fi driver using another computer.</p><h2 id=\"steps\">Steps</h2>\n<ol>\n<li><p><strong>Prepare another device</strong>\nUse a separate laptop with internet to open Lenovo’s site. Search “Lenovo IdeaPad 5 (14ITL05) drivers” and download the newest Windows 11 Wi-Fi driver, or use the <a href=\"https://support.lenovo.com/us/en/downloads/ds551876-intel-wlan-driver-for-windows-11-64-bit-ideapad-5-14itl05\">direct link</a>.</p></li>\n<li><p><strong>Transfer the driver</strong>\nInsert a USB drive into the working laptop and copy the downloaded file.</p></li>\n<li><p><strong>Install on the IdeaPad</strong>\nPlug the USB into your Lenovo IdeaPad 5 (14ITL05), open the drive, and double-click <code>37sw0a0f43gwseb0.exe</code>. Confirm administrator permission if prompted, then complete the installation.</p></li>\n<li><p><strong>Restart</strong>\nReboot the laptop so changes take effect.</p></li>\n</ol>\n<h2 id=\"notes\">Notes</h2>\n<ul>\n<li>Check <a href=\"https://support.lenovo.com/us/en/downloads/ds551876-intel-wlan-driver-for-windows-11-64-bit-ideapad-5-14itl05\">Lenovo’s support site</a> for the latest driver and other updates.</li>\n<li>Back up essential files before updating.</li>\n</ul>\n",
+            "author": {
+                "name": "Jacob Gonzales"
+            },
+            "tags": [
+            ],
+            "date_published": "2023-01-19T12:00:00-08:00",
+            "date_modified": "2026-09-21T21:42:32-07:00"
         }
     ]
 }

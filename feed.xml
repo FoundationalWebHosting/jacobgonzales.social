@@ -3,7 +3,7 @@
     <title>Jacob Gonzales</title>
     <link href="https://jacobgonzales.social/feed.xml" rel="self" />
     <link href="https://jacobgonzales.social" />
-    <updated>2026-09-21T21:34:37-07:00</updated>
+    <updated>2026-09-21T21:42:32-07:00</updated>
     <author>
         <name>Jacob Gonzales</name>
     </author>
@@ -123,6 +123,43 @@ In the Export Images as PDF dialog box, make sure the <strong>Layers as pages (b
 GIMP will then save the image PDF file to the location you specified. You can now view and use the image PDF file just like any other PDF file.</p></li>
 </ol>
 <p>That’s it! With these steps, you can easily convert a PDF to an image PDF using GIMP. Converting a PDF to an image PDF can be a useful skill to have, especially if you work with PDF files frequently. Give it a try and see how it can benefit you!</p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Fixing Wi-Fi on a Lenovo IdeaPad 5 (14ITL05) with Windows 11</title>
+        <author>
+            <name>Jacob Gonzales</name>
+        </author>
+        <link href="https://jacobgonzales.social/fixing-wi-fi-on-a-lenovo-ideapad-5-14itl05-with-windows-11/"/>
+        <id>https://jacobgonzales.social/fixing-wi-fi-on-a-lenovo-ideapad-5-14itl05-with-windows-11/</id>
+
+        <updated>2023-01-19T12:00:00-08:00</updated>
+            <summary type="html">
+                <![CDATA[
+                    Overview When your Lenovo IdeaPad 5 (14ITL05) loses internet access—shown by the globe icon—you can fix the Wi-Fi driver using another computer. Prepare another device Use a separate laptop with internet to open Lenovo’s site. Search “Lenovo IdeaPad 5 (14ITL05) drivers” and download the newest&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <h2 id="overview">Overview</h2>
+<p>When your Lenovo IdeaPad 5 (14ITL05) loses internet access—shown by the globe icon—you can fix the Wi-Fi driver using another computer.</p><h2 id="steps">Steps</h2>
+<ol>
+<li><p><strong>Prepare another device</strong>
+Use a separate laptop with internet to open Lenovo’s site. Search “Lenovo IdeaPad 5 (14ITL05) drivers” and download the newest Windows 11 Wi-Fi driver, or use the <a href="https://support.lenovo.com/us/en/downloads/ds551876-intel-wlan-driver-for-windows-11-64-bit-ideapad-5-14itl05">direct link</a>.</p></li>
+<li><p><strong>Transfer the driver</strong>
+Insert a USB drive into the working laptop and copy the downloaded file.</p></li>
+<li><p><strong>Install on the IdeaPad</strong>
+Plug the USB into your Lenovo IdeaPad 5 (14ITL05), open the drive, and double-click <code>37sw0a0f43gwseb0.exe</code>. Confirm administrator permission if prompted, then complete the installation.</p></li>
+<li><p><strong>Restart</strong>
+Reboot the laptop so changes take effect.</p></li>
+</ol>
+<h2 id="notes">Notes</h2>
+<ul>
+<li>Check <a href="https://support.lenovo.com/us/en/downloads/ds551876-intel-wlan-driver-for-windows-11-64-bit-ideapad-5-14itl05">Lenovo’s support site</a> for the latest driver and other updates.</li>
+<li>Back up essential files before updating.</li>
+</ul>
+
             ]]>
         </content>
     </entry>
