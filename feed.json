@@ -10,6 +10,20 @@
     },
     "items": [
         {
+            "id": "https://jacobgonzales.social/how-beeper-can-help-you-detox-from-social-media/",
+            "url": "https://jacobgonzales.social/how-beeper-can-help-you-detox-from-social-media/",
+            "title": "How Beeper Can Help You Detox from Social Media",
+            "summary": "In a world where social media algorithms are designed to keep us endlessly scrolling, finding a way to disconnect without losing touch with friends can feel impossible. Enter Beeper, a universal chat app that might just be the ultimate tool for a social media detox.",
+            "content_html": "<p>In a world where social media algorithms are designed to keep us endlessly scrolling, finding a way to disconnect without losing touch with friends can feel impossible. Enter <a href=\"https://blog.beeper.com/2023/02/28/were-building-the-best-chat-app-on-earth/\">Beeper</a>, a universal chat app that might just be the ultimate tool for a social media detox.</p><h2 id=\"what-is-beeper\">What is Beeper?</h2>\n<p>Beeper is a single app that lets you send and receive messages across 14 different chat networks, including WhatsApp, Facebook Messenger, iMessage, and Telegram. <a href=\"https://www.beeper.com/download\">Available on all major platforms</a>, it syncs your conversations seamlessly so you can manage all your chats in one place.</p><h2 id=\"how-beeper-helps-you-detox\">How Beeper Helps You Detox</h2>\n<p>While Beeper wasn’t specifically built for social media detoxing, it has become a powerful tool for it. By consolidating your direct messages into one feed, Beeper removes the need to open individual social media apps.</p><p>Social media platforms are engineered to capture your attention with endless feeds of videos and images. Beeper bypasses this entirely by only supporting direct messages. You get the convenience of staying in touch with friends across different platforms, without the addictive algorithms and distractions.</p><h2 id=\"security-and-privacy\">Security and Privacy</h2>\n<p>Beeper is built on the open-source <a href=\"https://blog.beeper.com/p/the-universal-communication-bus-42dfb9a141ad?s=w\">Matrix Protocol</a>, which offers robust end-to-end encryption. While Beeper secures your messages in transit, it is important to remember that your overall security still depends on the individual chat networks you connect to.</p><p><strong>Key Privacy Features of the Matrix Protocol:</strong></p><ul>\n<li><strong>Decentralization:</strong> There is no single point of control; anyone can run a Matrix server.</li>\n<li><strong>End-to-End Encryption:</strong> Only the intended recipients can read your messages.</li>\n<li><strong>Interoperability:</strong> Bridges connect Matrix with other platforms, allowing for seamless communication across different services.</li>\n</ul>\n<p>By using Beeper, you can maintain your relationships across various networks while successfully distancing yourself from the attention-grabbing mechanics of modern social media.</p>",
+            "author": {
+                "name": "Jacob Gonzales"
+            },
+            "tags": [
+            ],
+            "date_published": "2024-05-25T12:00:00-07:00",
+            "date_modified": "2026-09-21T22:03:08-07:00"
+        },
+        {
             "id": "https://jacobgonzales.social/a-step-by-step-guide-installing-rstudio-on-vanilla-os-2210-kinetic/",
             "url": "https://jacobgonzales.social/a-step-by-step-guide-installing-rstudio-on-vanilla-os-2210-kinetic/",
             "title": "A Step-by-Step Guide: Installing RStudio on Vanilla OS 22.10 Kinetic",
