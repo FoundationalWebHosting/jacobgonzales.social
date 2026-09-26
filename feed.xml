@@ -3,12 +3,43 @@
     <title>Jacob Gonzales</title>
     <link href="https://jacobgonzales.social/feed.xml" rel="self" />
     <link href="https://jacobgonzales.social" />
-    <updated>2026-09-24T22:46:06-07:00</updated>
+    <updated>2026-09-25T17:52:51-07:00</updated>
     <author>
         <name>Jacob Gonzales</name>
     </author>
     <id>https://jacobgonzales.social</id>
 
+    <entry>
+        <title>Prepare Your Business for Gemini AI with Google My Business</title>
+        <author>
+            <name>Jacob Gonzales</name>
+        </author>
+        <link href="https://jacobgonzales.social/prepare-your-business-for-gemini-ai-with-google-my-business/"/>
+        <id>https://jacobgonzales.social/prepare-your-business-for-gemini-ai-with-google-my-business/</id>
+            <category term="Guides"/>
+
+        <updated>2026-09-25T17:52:47-07:00</updated>
+            <summary type="html">
+                <![CDATA[
+                    With Google commanding over 90% of global search engine traffic as of August 2026, establishing your presence on the platform is more critical than ever. Ensuring your business is indexable on Google Search is just the first step; AI companies frequently utilize Google’s data to&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>With Google commanding <a href="https://gs.statcounter.com/search-engine-market-share">over 90% of global search engine traffic</a> as of August 2026, establishing your presence on the platform is more critical than ever. Ensuring your business is indexable on Google Search is just the first step; AI companies frequently utilize Google’s data to train their own models, making your digital footprint even more influential.</p><p>Much like Apple Business Connect, Google offers a completely free tool called Google My Business. This service allows you to list your business on Google Maps and Search, giving you full control over how your brand appears across the Google ecosystem.</p><h3 id="getting-started-is-simple">Getting Started is Simple:</h3>
+<ol>
+<li>Navigate to the <a href="https://business.google.com/us/business-profile/">Google Business Profile page</a>.</li>
+<li>Click the blue “Create your profile” button.</li>
+<li>Sign in to your Google Account (required to use the service).</li>
+<li>Enter your business details. You may have the option to claim an existing listing if one has already been added by another user.</li>
+<li>Complete all required information thoroughly to ensure your profile is robust.</li>
+<li>Verify your profile. Verification methods vary; some users may be required to record a video to prove their business location.</li>
+<li>Go Live! Once verified, your business will begin appearing on Google Maps and Search.</li>
+</ol>
+<p>After your profile is active, you can return to the <a href="https://business.google.com/us/business-profile/">Google Business Profile page</a> at any time to edit details, read reviews, manage photos, publish posts, track performance, and update your services or hours. These tools ensure your business is always presented accurately to your customers.</p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Prepare Your Business for Siri AI with Apple Business Connect</title>
         <author>
