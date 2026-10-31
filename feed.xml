@@ -3,12 +3,175 @@
     <title>Jacob Gonzales</title>
     <link href="https://jacobgonzales.social/feed.xml" rel="self" />
     <link href="https://jacobgonzales.social" />
-    <updated>2026-10-07T16:04:04-07:00</updated>
+    <updated>2026-10-30T22:24:00-07:00</updated>
     <author>
         <name>Jacob Gonzales</name>
     </author>
     <id>https://jacobgonzales.social</id>
 
+    <entry>
+        <title>How to Add a Race Countdown Timer to Your Publii Website</title>
+        <author>
+            <name>Jacob Gonzales</name>
+        </author>
+        <link href="https://jacobgonzales.social/how-to-add-a-race-countdown-timer-to-your-publii-website/"/>
+        <id>https://jacobgonzales.social/how-to-add-a-race-countdown-timer-to-your-publii-website/</id>
+            <category term="Guides"/>
+
+        <updated>2026-10-30T22:19:54-07:00</updated>
+            <summary type="html">
+                <![CDATA[
+                    I’m racing HYROX Anaheim on December 3rd, and I wanted a live countdown on my homepage. It sounded like a five-minute job. It took a few tries, because Publii has two quirks that quietly break most countdown snippets you find online. This guide skips the&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>I’m racing HYROX Anaheim on December 3rd, and I wanted a live countdown on my homepage. It sounded like a five-minute job. It took a few tries, because Publii has two quirks that quietly break most countdown snippets you find online. This guide skips the trial and error. You’ll get a working countdown timer for any event: a race, a launch, a wedding, a product drop.</p><h2 id="what-youll-build">What you’ll build</h2>
+<p>A dark card on your homepage showing the event name, the date and time, and a live days / hours / minutes / seconds countdown, with a button linking to the event page. When the timer hits zero, it switches to an “It’s race day!” message.</p><p>The whole thing is one script. No plugins, no external libraries, no theme edits.</p><h2 id="why-most-snippets-fail-in-publii">Why most snippets fail in Publii</h2>
+<p>I hit both of these problems, and they’re the reason this guide exists.</p><p><strong>1. The text editor strips scripts.</strong> If you paste a countdown into a post or a hero text field, Publii’s rich-text editor keeps the HTML box but removes the <code>&lt;script&gt;</code> tag. The box shows up, but the numbers sit at 0 forever. It can even look like it’s working in the editor, which is misleading.</p><p><strong>2. The Body tab runs too early.</strong> In <strong>Custom HTML</strong>, the Body tab injects code near the top of the page, before your content exists. A script placed there looks for the countdown box, finds nothing, and quits silently.</p><p>The fix is to put the script in the <strong>Footer</strong> tab of Custom HTML and have it wait for the page to finish loading.</p><h2 id="step-1-pick-your-anchor-text">Step 1: Pick your anchor text</h2>
+<p>The script places the countdown right under a heading on your homepage. Decide which heading. In my case it’s the hero title, “Learn. Build. Share.” Any heading text that appears on your page will work, as long as it’s unique.</p><h2 id="step-2-open-custom-html">Step 2: Open Custom HTML</h2>
+<ol>
+<li>In Publii, open your site.</li>
+<li>Go to <strong>Tools &amp; Plugins → Custom HTML</strong>.</li>
+<li>Leave the <strong>Body</strong> tab empty.</li>
+<li>Open the <strong>Footer</strong> tab.</li>
+</ol>
+<h2 id="step-3-paste-the-script">Step 3: Paste the script</h2>
+<p>Copy the script below into the Footer tab. Everything you need to change is in the five lines under <code>CONFIGURATION</code>.</p><pre><code class="language-html">&lt;script&gt;
+document.addEventListener(&quot;DOMContentLoaded&quot;, function () {
+  // ===== CONFIGURATION: edit these five lines =====
+  var eventName  = &quot;HYROX Anaheim 2026&quot;;
+  var dateText   = &quot;December 3, 2026 · 10:00 AM PST&quot;;
+  var target     = new Date(&quot;2026-12-03T10:00:00-08:00&quot;).getTime();
+  var eventUrl   = &quot;https://usa.hyrox.com/events/hyrox-anaheim-season-26-27-edyxxn&quot;;
+  var anchorText = &quot;Learn. Build. Share.&quot;;
+  // ================================================
+
+  var heading = null;
+  var all = document.querySelectorAll(&quot;h1,h2,h3,h4,h5,h6&quot;);
+  for (var i = 0; i &lt; all.length; i++) {
+    if (all[i].textContent.indexOf(anchorText) !== -1) {
+      heading = all[i];
+      break;
+    }
+  }
+  if (!heading) {
+    console.log(&quot;Countdown: anchor heading not found&quot;);
+    return;
+  }
+
+  var box = document.createElement(&quot;div&quot;);
+  box.id = &quot;event-countdown&quot;;
+  box.style.cssText = &quot;max-width:520px;margin:2rem auto;padding:1.5rem;border-radius:12px;background:#111;color:#fff;text-align:center;font-family:system-ui,sans-serif;&quot;;
+  box.innerHTML =
+    &#39;&lt;div style=&quot;margin:0 0 .25rem;color:#f7d117;font-size:1.4rem;font-weight:700;&quot;&gt;&lt;/div&gt;&#39; +
+    &#39;&lt;p style=&quot;margin:0 0 1rem;opacity:.8;&quot;&gt;&lt;/p&gt;&#39; +
+    &#39;&lt;div id=&quot;ec-timer&quot; style=&quot;display:flex;gap:.75rem;justify-content:center;&quot;&gt;&#39; +
+      &#39;&lt;div&gt;&lt;span id=&quot;ec-d&quot; style=&quot;font-size:2.2rem;font-weight:700;&quot;&gt;0&lt;/span&gt;&lt;br&gt;&lt;small&gt;days&lt;/small&gt;&lt;/div&gt;&#39; +
+      &#39;&lt;div&gt;&lt;span id=&quot;ec-h&quot; style=&quot;font-size:2.2rem;font-weight:700;&quot;&gt;0&lt;/span&gt;&lt;br&gt;&lt;small&gt;hours&lt;/small&gt;&lt;/div&gt;&#39; +
+      &#39;&lt;div&gt;&lt;span id=&quot;ec-m&quot; style=&quot;font-size:2.2rem;font-weight:700;&quot;&gt;0&lt;/span&gt;&lt;br&gt;&lt;small&gt;min&lt;/small&gt;&lt;/div&gt;&#39; +
+      &#39;&lt;div&gt;&lt;span id=&quot;ec-s&quot; style=&quot;font-size:2.2rem;font-weight:700;&quot;&gt;0&lt;/span&gt;&lt;br&gt;&lt;small&gt;sec&lt;/small&gt;&lt;/div&gt;&#39; +
+    &#39;&lt;/div&gt;&#39; +
+    &#39;&lt;a href=&quot;#&quot; style=&quot;display:inline-block;margin-top:1rem;color:#f7d117;&quot;&gt;Event details &amp;rarr;&lt;/a&gt;&#39;;
+
+  var next = heading.nextElementSibling;
+  var anchor = (next &amp;&amp; next.tagName === &quot;P&quot;) ? next : heading;
+  anchor.insertAdjacentElement(&quot;afterend&quot;, box);
+
+  box.children[0].textContent = eventName;
+  box.children[1].textContent = dateText;
+  box.querySelector(&quot;a&quot;).href = eventUrl;
+
+  var d = document.getElementById(&quot;ec-d&quot;),
+      h = document.getElementById(&quot;ec-h&quot;),
+      m = document.getElementById(&quot;ec-m&quot;),
+      s = document.getElementById(&quot;ec-s&quot;),
+      timerBox = document.getElementById(&quot;ec-timer&quot;);
+
+  function tick() {
+    var diff = target - Date.now();
+    if (diff &lt;= 0) {
+      timerBox.innerHTML = &#39;&lt;strong style=&quot;font-size:1.4rem;&quot;&gt;It\&#39;s race day!&lt;/strong&gt;&#39;;
+      clearInterval(timer);
+      return;
+    }
+    d.textContent = Math.floor(diff / 86400000);
+    h.textContent = Math.floor(diff / 3600000) % 24;
+    m.textContent = Math.floor(diff / 60000) % 60;
+    s.textContent = Math.floor(diff / 1000) % 60;
+  }
+  var timer = setInterval(tick, 1000);
+  tick();
+});
+&lt;/script&gt;
+</code></pre>
+<h2 id="step-4-customize-the-five-settings">Step 4: Customize the five settings</h2>
+<table>
+<thead>
+<tr>
+<th>Setting</th>
+<th>What it does</th>
+<th>Example</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><code>eventName</code></td>
+<td>Title shown on the card</td>
+<td>“HYROX Anaheim 2026”</td>
+</tr>
+<tr>
+<td><code>dateText</code></td>
+<td>Human-readable date line</td>
+<td>“December 3, 2026 · 10:00 AM PST”</td>
+</tr>
+<tr>
+<td><code>target</code></td>
+<td>The actual countdown moment</td>
+<td><code>2026-12-03T10:00:00-08:00</code></td>
+</tr>
+<tr>
+<td><code>eventUrl</code></td>
+<td>Where the button links</td>
+<td>Your event or ticket page</td>
+</tr>
+<tr>
+<td><code>anchorText</code></td>
+<td>Heading the card appears under</td>
+<td>“Learn. Build. Share.”</td>
+</tr>
+</tbody></table>
+<h3 id="getting-the-time-zone-right">Getting the time zone right</h3>
+<p>The <code>target</code> value uses the format <code>YYYY-MM-DDTHH:MM:SS</code> followed by a UTC offset. The offset is what makes the countdown correct for every visitor, wherever they are.</p><ul>
+<li>Pacific Standard Time (winter): <code>-08:00</code></li>
+<li>Pacific Daylight Time (summer): <code>-07:00</code></li>
+<li>Eastern Standard Time: <code>-05:00</code></li>
+<li>Eastern Daylight Time: <code>-04:00</code></li>
+<li>UTC: <code>Z</code> instead of an offset</li>
+</ul>
+<p>Use the offset that applies on the <strong>event date</strong>, not today’s date. My race is in December, so I use <code>-08:00</code> even though I wrote this earlier in the year.</p><h2 id="step-5-save-preview-and-hard-refresh">Step 5: Save, preview, and hard refresh</h2>
+<ol>
+<li>Click <strong>Save &amp; preview</strong>.</li>
+<li>When the preview opens, do a hard refresh: <strong>Ctrl+Shift+R</strong> on Windows and Linux, <strong>Cmd+Shift+R</strong> on Mac. Browsers cache aggressively, and an old version can hide your changes.</li>
+</ol>
+<p>Your countdown should now appear under your anchor heading and tick down every second.</p><h2 id="troubleshooting">Troubleshooting</h2>
+<p>If nothing shows up, open your browser console (<strong>F12 → Console</strong>), reload the page, and look for these:</p><ul>
+<li><strong>“Countdown: anchor heading not found”</strong>: the <code>anchorText</code> doesn’t match your page. Check for typos, trailing spaces, or special characters, or choose a different heading.</li>
+<li><strong>No message and no countdown</strong>: the script isn’t being output. Confirm it’s in the <strong>Footer</strong> tab (not Head or Body) and that you re-rendered the site with Save &amp; preview.</li>
+<li><strong>Countdown appears but the time is wrong</strong>: check the UTC offset in <code>target</code> and make sure it’s the offset for the event date.</li>
+<li><strong>Two countdowns on one page</strong>: you probably also pasted a box into a text field or the Body tab. Remove the older copies.</li>
+</ul>
+<h2 id="make-it-your-own">Make it your own</h2>
+<p>A few easy tweaks:</p><ul>
+<li><strong>Colors:</strong> change <code>#111</code> (background) and <code>#f7d117</code> (accent) in the script to match your brand.</li>
+<li><strong>Width:</strong> adjust <code>max-width:520px</code> to make the card narrower or wider.</li>
+<li><strong>Placement:</strong> change <code>anchorText</code> to a heading elsewhere on the page to move the card.</li>
+<li><strong>Finish message:</strong> edit the “It’s race day!” text to anything you like, such as “We’re live!” or “Happy wedding day!”.</li>
+</ul>
+<h2 id="wrapping-up">Wrapping up</h2>
+<p>The lesson here goes beyond countdowns: in Publii, anything involving JavaScript belongs in the Footer tab of Custom HTML, not in a post or text field. Once you know that, small interactive touches like timers, banners, and widgets become easy to add.</p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>How to Create a Personalized Sales Coach Using Gemini</title>
         <author>
