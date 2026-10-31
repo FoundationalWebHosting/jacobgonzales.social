@@ -1,6 +1,6 @@
-<!DOCTYPE html><html lang="en-us"><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Tag: Guides - Jacob Gonzales</title><meta name="robots" content="noindex, follow"><meta name="generator" content="Publii Open-Source CMS for Static Site"><link rel="alternate" type="application/atom+xml" href="https://jacobgonzales.social/feed.xml" title="Jacob Gonzales - RSS"><link rel="alternate" type="application/json" href="https://jacobgonzales.social/feed.json" title="Jacob Gonzales - JSON"><meta property="og:title" content="Guides"><meta property="og:site_name" content="Jacob Gonzales"><meta property="og:description" content="Learn. Build. Share. | Practical playbooks on everything from streamlining your daily workflows to mastering new digital tools, based on real-world experience."><meta property="og:url" content="https://jacobgonzales.social/tags/guides/page/2/"><meta property="og:type" content="website"><link rel="prev" href="https://jacobgonzales.social/tags/guides/"><link rel="stylesheet" href="https://jacobgonzales.social/assets/css/style.css?v&#x3D;ddb76ab63bdeab87f7d9d8abcfbe4a8a"><script type="application/ld+json">{"@context":"http://schema.org","@type":"Organization","name":"Jacob Gonzales","url":"https://jacobgonzales.social/","sameAs":["https://www.facebook.com/jacobgonzales20","https://www.instagram.com/jacobgonzales.social/","https://www.linkedin.com/in/jacobgonzales20/"]}</script><noscript><style>img[loading] {
+<!DOCTYPE html><html lang="en-us"><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Tag: Guides - Jacob Gonzales</title><meta name="robots" content="noindex, follow"><meta name="generator" content="Publii Open-Source CMS for Static Site"><link rel="alternate" type="application/atom+xml" href="https://jacobgonzales.social/feed.xml" title="Jacob Gonzales - RSS"><link rel="alternate" type="application/json" href="https://jacobgonzales.social/feed.json" title="Jacob Gonzales - JSON"><meta property="og:title" content="Guides"><meta property="og:site_name" content="Jacob Gonzales"><meta property="og:description" content="Learn. Build. Share. | Practical playbooks on everything from streamlining your daily workflows to mastering new digital tools, based on real-world experience."><meta property="og:url" content="https://jacobgonzales.social/tags/guides/page/2/"><meta property="og:type" content="website"><link rel="prev" href="https://jacobgonzales.social/tags/guides/"><link rel="stylesheet" href="https://jacobgonzales.social/assets/css/style.css?v&#x3D;597bbfd3fe1c334c6f8df9eaf5af8fa2"><script type="application/ld+json">{"@context":"http://schema.org","@type":"Organization","name":"Jacob Gonzales","url":"https://jacobgonzales.social/","sameAs":["https://www.facebook.com/jacobgonzales20","https://www.instagram.com/jacobgonzales.social/","https://www.linkedin.com/in/jacobgonzales20/"]}</script><noscript><style>img[loading] {
                     opacity: 1;
-                }</style></noscript><link rel="stylesheet" href="https://jacobgonzales.social/media/plugins/coreLightboxGallery/photoswipe.min.css"><style>:root {
+                }</style></noscript><meta name="theme-color" content="#181818"><meta name="color-scheme" content="dark light"><link rel="stylesheet" href="https://jacobgonzales.social/media/plugins/coreLightboxGallery/photoswipe.min.css"><style>:root {
 		       	 --pswp-bg: #000000;
 					 --pswp-placeholder-bg: rgba(38, 40, 44, 1);
 					 --pswp-ui-bg: rgba(38, 40, 44, .5);
@@ -84,6 +84,48 @@
   }
   var timer = setInterval(tick, 1000);
   tick();
+});</script><style>#read-progress {
+    position: fixed; top: 0; left: 0; height: 3px; width: 0;
+    background: var(--color, #f7d117); z-index: 9999;
+    transition: width .1s linear;
+  }
+  .content__entry pre { position: relative; }
+  .copy-btn {
+    position: absolute; top: .5rem; right: .5rem;
+    padding: .25rem .7rem; cursor: pointer;
+    font: 600 .75rem system-ui, sans-serif;
+    color: var(--color, #f7d117); background: transparent;
+    border: 1px solid var(--color, #f7d117); border-radius: 999px;
+  }
+  .copy-btn:hover { background: var(--color, #f7d117); color: #111; }</style><script>document.addEventListener("DOMContentLoaded", function () {
+  // Reading progress bar (post pages only)
+  if (document.body.classList.contains("post-template")) {
+    var bar = document.createElement("div");
+    bar.id = "read-progress";
+    document.body.appendChild(bar);
+    window.addEventListener("scroll", function () {
+      var el = document.documentElement;
+      var max = el.scrollHeight - el.clientHeight;
+      bar.style.width = (max > 0 ? (el.scrollTop / max) * 100 : 0) + "%";
+    }, { passive: true });
+  }
+
+  // Copy buttons on code blocks
+  document.querySelectorAll(".content__entry pre").forEach(function (pre) {
+    var code = pre.querySelector("code");
+    var btn = document.createElement("button");
+    btn.type = "button";
+    btn.className = "copy-btn";
+    btn.textContent = "Copy";
+    btn.addEventListener("click", function () {
+      var text = (code || pre).innerText.replace(/Copy$/, "");
+      navigator.clipboard.writeText(text).then(function () {
+        btn.textContent = "Copied!";
+        setTimeout(function () { btn.textContent = "Copy"; }, 1500);
+      });
+    });
+    pre.appendChild(btn);
+  });
 });</script><script type="module">import PhotoSwipeLightbox from "https://jacobgonzales.social/media/plugins/coreLightboxGallery/photoswipe-lightbox.esm.min.js";
 				 const galleries = document.querySelectorAll('.gallery');
 				 galleries.forEach(gallery => {
