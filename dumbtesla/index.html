@@ -9,4 +9,71 @@
                     this.classList.add('is-loaded');
                 }, false);
             }
-        }</script></body></html>
+        }</script><script>document.addEventListener("DOMContentLoaded", function () {
+  // Dec 3, 2026, 10:00 AM Pacific (PST = UTC-8)
+  var target = new Date("2026-12-03T10:00:00-08:00").getTime();
+  var dateText = "December 3, 2026 · 10:00 AM PST";
+  var eventUrl = "https://usa.hyrox.com/events/hyrox-anaheim-season-26-27-edyxxn";
+
+  // If the hero editor stripped the box, build it
+  if (!document.getElementById("hc-timer")) {
+    var heading = null;
+    var all = document.querySelectorAll("h1,h2,h3,h4,h5,h6");
+    for (var i = 0; i < all.length; i++) {
+      if (all[i].textContent.indexOf("Learn. Build. Share.") !== -1) {
+        heading = all[i];
+        break;
+      }
+    }
+    if (!heading) {
+      console.log("Countdown: hero heading not found");
+      return;
+    }
+
+    var box = document.createElement("div");
+    box.id = "hyrox-countdown";
+    box.style.cssText = "max-width:520px;margin:2rem auto;padding:1.5rem;border-radius:12px;background:#111;color:#fff;text-align:center;font-family:system-ui,sans-serif;";
+    box.innerHTML =
+      '<div style="margin:0 0 .25rem;color:#f7d117;font-size:1.4rem;font-weight:700;">HYROX Anaheim 2026</div>' +
+      '<p style="margin:0 0 1rem;opacity:.8;"></p>' +
+      '<div id="hc-timer" style="display:flex;gap:.75rem;justify-content:center;">' +
+        '<div><span id="hc-d" style="font-size:2.2rem;font-weight:700;">0</span><br><small>days</small></div>' +
+        '<div><span id="hc-h" style="font-size:2.2rem;font-weight:700;">0</span><br><small>hours</small></div>' +
+        '<div><span id="hc-m" style="font-size:2.2rem;font-weight:700;">0</span><br><small>min</small></div>' +
+        '<div><span id="hc-s" style="font-size:2.2rem;font-weight:700;">0</span><br><small>sec</small></div>' +
+      '</div>' +
+      '<a href="#" style="display:inline-block;margin-top:1rem;color:#f7d117;">Event details &rarr;</a>';
+
+    var next = heading.nextElementSibling;
+    var anchor = (next && next.tagName === "P") ? next : heading;
+    anchor.insertAdjacentElement("afterend", box);
+  }
+
+  // Set the date line and link (works for built or hero-editor boxes)
+  var dateEl = document.querySelector("#hyrox-countdown p");
+  if (dateEl) dateEl.textContent = dateText;
+  var linkEl = document.querySelector("#hyrox-countdown a");
+  if (linkEl) linkEl.href = eventUrl;
+
+  var d = document.getElementById("hc-d"),
+      h = document.getElementById("hc-h"),
+      m = document.getElementById("hc-m"),
+      s = document.getElementById("hc-s"),
+      timerBox = document.getElementById("hc-timer");
+
+  function tick() {
+    var diff = target - Date.now();
+    if (diff <= 0) {
+      timerBox.innerHTML =
+        '<strong style="font-size:1.4rem;">It\'s race day!</strong>';
+      clearInterval(timer);
+      return;
+    }
+    d.textContent = Math.floor(diff / 86400000);
+    h.textContent = Math.floor(diff / 3600000) % 24;
+    m.textContent = Math.floor(diff / 60000) % 60;
+    s.textContent = Math.floor(diff / 1000) % 60;
+  }
+  var timer = setInterval(tick, 1000);
+  tick();
+});</script></body></html>

@@ -20,7 +20,74 @@
                     this.classList.add('is-loaded');
                 }, false);
             }
-        }</script><script type="module">import PhotoSwipeLightbox from "https://jacobgonzales.social/media/plugins/coreLightboxGallery/photoswipe-lightbox.esm.min.js";
+        }</script><script>document.addEventListener("DOMContentLoaded", function () {
+  // Dec 3, 2026, 10:00 AM Pacific (PST = UTC-8)
+  var target = new Date("2026-12-03T10:00:00-08:00").getTime();
+  var dateText = "December 3, 2026 · 10:00 AM PST";
+  var eventUrl = "https://usa.hyrox.com/events/hyrox-anaheim-season-26-27-edyxxn";
+
+  // If the hero editor stripped the box, build it
+  if (!document.getElementById("hc-timer")) {
+    var heading = null;
+    var all = document.querySelectorAll("h1,h2,h3,h4,h5,h6");
+    for (var i = 0; i < all.length; i++) {
+      if (all[i].textContent.indexOf("Learn. Build. Share.") !== -1) {
+        heading = all[i];
+        break;
+      }
+    }
+    if (!heading) {
+      console.log("Countdown: hero heading not found");
+      return;
+    }
+
+    var box = document.createElement("div");
+    box.id = "hyrox-countdown";
+    box.style.cssText = "max-width:520px;margin:2rem auto;padding:1.5rem;border-radius:12px;background:#111;color:#fff;text-align:center;font-family:system-ui,sans-serif;";
+    box.innerHTML =
+      '<div style="margin:0 0 .25rem;color:#f7d117;font-size:1.4rem;font-weight:700;">HYROX Anaheim 2026</div>' +
+      '<p style="margin:0 0 1rem;opacity:.8;"></p>' +
+      '<div id="hc-timer" style="display:flex;gap:.75rem;justify-content:center;">' +
+        '<div><span id="hc-d" style="font-size:2.2rem;font-weight:700;">0</span><br><small>days</small></div>' +
+        '<div><span id="hc-h" style="font-size:2.2rem;font-weight:700;">0</span><br><small>hours</small></div>' +
+        '<div><span id="hc-m" style="font-size:2.2rem;font-weight:700;">0</span><br><small>min</small></div>' +
+        '<div><span id="hc-s" style="font-size:2.2rem;font-weight:700;">0</span><br><small>sec</small></div>' +
+      '</div>' +
+      '<a href="#" style="display:inline-block;margin-top:1rem;color:#f7d117;">Event details &rarr;</a>';
+
+    var next = heading.nextElementSibling;
+    var anchor = (next && next.tagName === "P") ? next : heading;
+    anchor.insertAdjacentElement("afterend", box);
+  }
+
+  // Set the date line and link (works for built or hero-editor boxes)
+  var dateEl = document.querySelector("#hyrox-countdown p");
+  if (dateEl) dateEl.textContent = dateText;
+  var linkEl = document.querySelector("#hyrox-countdown a");
+  if (linkEl) linkEl.href = eventUrl;
+
+  var d = document.getElementById("hc-d"),
+      h = document.getElementById("hc-h"),
+      m = document.getElementById("hc-m"),
+      s = document.getElementById("hc-s"),
+      timerBox = document.getElementById("hc-timer");
+
+  function tick() {
+    var diff = target - Date.now();
+    if (diff <= 0) {
+      timerBox.innerHTML =
+        '<strong style="font-size:1.4rem;">It\'s race day!</strong>';
+      clearInterval(timer);
+      return;
+    }
+    d.textContent = Math.floor(diff / 86400000);
+    h.textContent = Math.floor(diff / 3600000) % 24;
+    m.textContent = Math.floor(diff / 60000) % 60;
+    s.textContent = Math.floor(diff / 1000) % 60;
+  }
+  var timer = setInterval(tick, 1000);
+  tick();
+});</script><script type="module">import PhotoSwipeLightbox from "https://jacobgonzales.social/media/plugins/coreLightboxGallery/photoswipe-lightbox.esm.min.js";
 				 const galleries = document.querySelectorAll('.gallery');
 				 galleries.forEach(gallery => {
 					  const lightboxOptions = {"children":"figure","mainClass":"pswp--custom-bg","showHideAnimationType":"zoom","showAnimationDuration":333,"hideAnimationDuration":333,"easing":"cubic-bezier(.4,0,.22,1)","initialZoomLevel":"fit","secondaryZoomLevel":"fill","imageClickAction":"zoom-or-close","spacing":0.1,"loop":true,"wheelToZoom":false,"escKey":true,"arrowKeys":true,"padding":{"top":0,"bottom":0,"left":0,"right":0},"arrowPrev":true,"arrowNext":true,"close":true,"zoom":true,"counter":true,"preload":[1,2],"bgOpacity":0.6,"closeTitle":"Close","zoomTitle":"Zoom","arrowPrevTitle":"Previous","arrowNextTitle":"Next","errorMsg":"The image cannot be loaded","indexIndicatorSep":" / ","arrowPrevSVG":"\u003Csvg viewBox=\"0 0 24 24\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\" class=\"pswp__icn\" aria-hidden=\"true\"\u003E\u003Cpath d=\"M21 12L3 12M3 12L11.5 3.5M3 12L11.5 20.5\"\u003E\u003C/path\u003E\u003C/svg\u003E","arrowNextSVG":"\u003Csvg viewBox=\"0 0 24 24\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\" class=\"pswp__icn\" aria-hidden=\"true\"\u003E\u003Cpath d=\"M21 12L3 12M3 12L11.5 3.5M3 12L11.5 20.5\"\u003E\u003C/path\u003E\u003C/svg\u003E","closeSVG":"\u003Csvg viewBox=\"0 0 24 24\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\" class=\"pswp__icn\" aria-hidden=\"true\"\u003E\u003Cpath d=\"M6.75827 17.2426L12.0009 12M17.2435 6.75736L12.0009 12M12.0009 12L6.75827 6.75736M12.0009 12L17.2435 17.2426\"\u003E\u003C/path\u003E\u003C/svg\u003E","zoomSVG":"\u003Csvg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"pswp__icn\" aria-hidden=\"true\"\u003E\u003Cpath d=\"M8 11H14\"\u003E\u003C/path\u003E\u003Cpath class=\"pswp__zoom-icn-bar-v\" d=\"M11 8V14\"\u003E\u003C/path\u003E\u003Cpath d=\"M17 17L21 21\"\u003E\u003C/path\u003E\u003Cpath d=\"M3 11C3 15.4183 6.58172 19 11 19C13.213 19 15.2161 18.1015 16.6644 16.6493C18.1077 15.2022 19 13.2053 19 11C19 6.58172 15.4183 3 11 3C6.58172 3 3 6.58172 3 11Z\"\u003E\u003C/path\u003E\u003C/svg\u003E"};
